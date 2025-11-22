@@ -13,23 +13,24 @@ class MathOperations{
         System.out.println("Modulus: " + (a%b));
         
         //relational.....
-        System.out.println("a>b: " + (a>b));
-        System.out.println("a==b: " + (a==b));
+        System.out.println("Greater Than: " + (a>b));
+        System.out.println("Equal To: " + (a==b));
         
         //logical...
         boolean x=true, y=false;
-        System.out.println("x && y: " + (x&&y));
-        System.out.println("x || y: " + (x||y));
-        System.out.println("!x: " + (!x));
+        System.out.println("Logical AND: " + (x&&y));
+        System.out.println("Logical OR: " + (x||y));
+        System.out.println("Logical NOT: " + (!x));
         //assignment...
         int c = a;
         c += b;
-        System.out.println("c after+=b: " + c);
+        System.out.println("Assignment: " + c);
         
         //unary..
-        System.out.println("++a: " + (++a));
-        System.out.println("--b: " + (--b));
+        System.out.println("Add and Assign: " + (++a));
+        System.out.println("Increment: " + (--b));
 
 
     }
 }
+
